@@ -1,0 +1,88 @@
+@font-face{
+              font-family:'fontello';src:url('../fonts/fontello.eot?62810182');
+              src:url('../fonts/fontello.eot?62810182#iefix') format('embedded-opentype'),
+              url('../fonts/fontello.woff?62810182') format('woff'),
+              url('../fonts/fontello.ttf?62810182') format('truetype'),
+              url('../fonts/fontello.svg?62810182#fontello') format('svg');
+              font-weight:normal;font-style:normal;
+}
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  background-color: #fff;
+}
+.sc_icon_bg_menu {
+    color: #1dbb90;
+}
+.woman{
+  text-align: center;
+}
+.rocket{
+  text-align: center;
+}
+.world{
+  text-align: center;
+}
+.content_animation{
+    margin-top: 1em !important;
+    
+    position: relative;
+    padding: 1px 0;
+    margin-bottom: 0;
+}
+.sc_icon.sc_icon_bg_menu:hover{
+  color: #018763;
+  text-decoration: none;
+}
+
+.menu_color {
+color: #1dbb90;
+font-weight: 600;
+    &:hover{
+    color: #1dbb90;
+    }
+}
+.sc_icon {
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    transition: all ease .3s;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    line-height: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    width: auto;
+    margin: 0;
+}
+.icon-woman-2:before {
+    content: '\e81c';
+}
+.icon-rocket-2:before {
+    content: '\e81e';
+}
+.icon-world-2:before {
+    content: '\e81f';
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+}

@@ -13,27 +13,24 @@
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/less.min.js"></script>
-	<script type="text/javascript" src="js/contact.js"></script>
+	<script type="text/javascript" src="js/dropdown.js"></script>
+	</head>
+<body>
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div id="menu" class="col-md-6 navbar-right">
 
-</head>
+					<ul id="menu_user" class="menu_user_nav menu_user_nav_area pull-right">
+						<li class="dropdown btn menu_user_bookmarks"><a href="#" class="dropdown-toggle  bookmarks_show icon-star-1 sf-with-ul" data-toggle="dropdown"><span class="glyphicon glyphicon-star"></span></a>
+							<ul class="dropdown-menu bookmarks_list animated fast fadeOut" >
+									<li class="color"><a href="#" class="bookmarks_add icon-star-empty" title="Add the current page into bookmarks">Add bookmark</a></li>
+							</ul>
+						</li>
+						<li class="btn menu_user_login"><a href="#" class="login">Login</a></li>
+					</ul>
 
-	<body>
-	<div id="wrapper">
-		<div id="contact">
-			<div class="container">
-				<div class="row">
-					<div id="menu" class="col-md-6 navbar-right">
-
-						<ul id="menu_user" class="menu_user_nav menu_user_nav_area pull-right">
-							<li class="dropdown btn menu_user_bookmarks"><a href="#" class="dropdown-toggle  bookmarks_show icon-star-1 sf-with-ul" data-toggle="dropdown"><span class="glyphicon glyphicon-star"></span></a>
-								<ul class="dropdown-menu bookmarks_list animated fast fadeOut" >
-										<li class="color"><a href="#" class="bookmarks_add icon-star-empty" title="Add the current page into bookmarks">Add bookmark</a></li>
-								</ul>
-							</li>
-							<li class="btn menu_user_login"><a href="#" class="login">Login</a></li>
-						</ul>
-
-					</div>
+				</div>
 					<div class="col-md-6 ">
 						<div class="menu_user_contact_area pull-left">
 							Contact us on 0 800 123-4567 or <a href="mailto:support@themerex.net">support@themerex.net</a>
@@ -41,7 +38,6 @@
 					</div>
 			</div>	
 		</div>
-	</div><!--contact-->
-
+	</div><!--contact-->	
 </body>
 </html>
